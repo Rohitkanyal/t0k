@@ -1,0 +1,33 @@
+#main{
+    padding-top: 70px;
+    background-image: url(./pattern-background-desktop.svg);background-size: cover;
+    box-shadow: #004369;
+    color: #004369;
+}
+.fade {
+    background-color: #DB1F48;
+    color: #fff;
+    transition: background-color 1s;
+    height: 25px;
+    width: 350px;
+    border-radius: 12px;
+  }
+  
+  .fade:hover {
+    background-color: #004369;
+  }
+  
+  .fade:focus,
+  .fade:active {
+    background-color: black;
+    transition: none;
+  }
+
+#btn{
+    
+}
+
+#container{
+    display: flex; flex-direction:column; align-self: center;
+    
+}

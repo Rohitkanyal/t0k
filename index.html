@@ -3,28 +3,36 @@
 <!DOCTYPE html>
 <Html:5>
     <head>
-        <link rel="stylsheet" href="stylesheet.css">
+        <link href="stylesheet.css" rel="stylesheet" />
     </head>
 
     <body>
-        <div id="main">
+        <div id="main" >
             <div id="container">
-                <div id="banner">
+                <div id="banner" style = "align-self: center;padding: 0px 200px 0px 200px;">
                     <img src="./illustration-hero.svg">
                 </div>
-                <div>
-                    <h1>Order Summery</h1>
-                    <p>You can now listne to milions of songs. audiobooks, and podcasts on any device anywhere you like!.</p>
-                    <div>
-                        <img src="./icon-music.svg">
-                        <p>Annual Plan change</p>
-                        <h3>$59.99/year</h3>
+                <div style = "align-self: center;padding: 0px 200px 0px 200px; ">
+                    <center><h1>Order Summery</h1></center>
+                    <div style="text-wrap: normal;">
+                        <center><p>You can now listne to milions of songs. audiobooks, <br>and podcasts on any device anywhere you like!.</p></center>
                     </div>
-                </div>
-                <button id="btn">
+                    <!-- this card     -->
+                    <div style = "display: flex;flex-wrap: wrap; align-self: center; padding: 0px 200px 0px 200px;">
+                            <div>
+                                <img src="./icon-music.svg">
+                            </div>    
+                            <div style="display:flex;flex-shrink:2; flex-shrink: 0.6; flex-direction: column;flex-wrap: wrap;">
+                                <p>Annual Plan change</p> 
+                                <h3>$59.99/year</h3>
+                            </div>
+                        </div>    
+                    </div>
+                    <!-- card end                 -->
+                <button id="btn" class="fade" style = "align-self: center;">
                     Procceed Payment
                 </button>
-                <button id="btn">
+                <button  class="fade" id="btn" style = "align-self: center;">
                     Cancel Order
                 </button>
             </div>
